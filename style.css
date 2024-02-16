@@ -28,17 +28,55 @@ body{
     border: burlywood;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
     font-size: 8vmin;
-    color: peru;
+    color: rgb(13, 13, 13);
     background-color: #C6DCBA;
 }
 #resetbtn{
     margin-top: 1.25px;
-    padding: 1rem;
-    font-size: 1.5rem;
+    padding: 20px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
     background-color: rgb(72, 77, 83);
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
     border-radius: 2rem ;
     border: none;
+}
 
+#newbtn{
+    margin: 1rem 0 1rem 0;
+    padding: 20px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(72, 77, 83);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 2rem ;
+    border: none;
+}
+#msg{
+    margin-top: 1rem;
+    text-align:center;
+    font-size: 6vmin;
+    color: #070F2B;
+}
+.hide{
+    display: none;
+}
+
+.msg-container{
+    margin-top: 15rem;
+    
+}
+
+.strikeboxes{
+    background-color: slategray;
+    text-decoration: line-through;
+    color: white;
+}
+
+.playerO{
+    color: #8a2a02;
+}
+
+.playerX{
+    color: navy;
 }
