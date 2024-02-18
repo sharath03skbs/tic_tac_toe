@@ -31,6 +31,18 @@ body{
     color: rgb(13, 13, 13);
     background-color: #C6DCBA;
 }
+#main-heading{
+    font-size: 2rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: #070F2B;
+    margin-top: 5%;
+    background-color: #703e29;
+    color: aliceblue;
+    width: 20%;
+    position: relative;
+    left: 40%;;
+}
 #resetbtn{
     margin-top: 1.25px;
     padding: 20px;
